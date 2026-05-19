@@ -38,14 +38,14 @@
   <header class="fixed top-0 w-full z-50 glass border-b border-blue-100">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <div class="font-extrabold text-xl tracking-tighter text-blue-700 uppercase flex items-center gap-2">
-        <img src="/img/icon_venhasorrir.webp" alt="Venha Sorrir" class="w-8 h-8">
+        <i data-lucide="smile" class="w-8 h-8 text-blue-700"></i>
         <span class="text-blue-700">Venha</span> <span class="text-slate-900">Sorrir</span>
       </div>
       <nav class="hidden md:flex items-center gap-6">
-        <a href="#servicos" class="font-semibold text-slate-700 hover:text-blue-600 transition">Serviços</a>
-        <a href="#equipe" class="font-semibold text-slate-700 hover:text-blue-600 transition">Equipe</a>
         <a href="#diferenciais" class="font-semibold text-slate-700 hover:text-blue-600 transition">Diferenciais</a>
-        <a href="#contato" class="font-semibold text-slate-700 hover:text-blue-600 transition">Contato</a>
+        <a href="#tratamentos" class="font-semibold text-slate-700 hover:text-blue-600 transition">Tratamentos</a>
+        <a href="#depoimentos" class="font-semibold text-slate-700 hover:text-blue-600 transition">Avaliações</a>
+        <a href="#sobre" class="font-semibold text-slate-700 hover:text-blue-600 transition">A Clínica</a>
       </nav>
       <a href="https://wa.me/557791039993" target="_blank" class="hidden md:block btn-glow text-white px-6 py-2.5 rounded-full font-bold shadow-md">
         Agendar Consulta
@@ -63,14 +63,11 @@
           Transformamos sorrisos com <span class="text-blue-600">excelência e amor.</span>
         </h1>
         <p class="text-lg text-slate-600 mb-10 leading-relaxed max-w-lg">
-          Clínica odontológica mais bem avaliada no Google. Encante-se com nossa experiência e redescubra a alegria de sorrir.
+          Clínica odontológica mais bem avaliada no Google em Vitória da Conquista. Encante-se com nossa experiência e redescubra a alegria de sorrir.
         </p>
         <div class="flex gap-4">
           <a href="https://wa.me/557791039993" target="_blank" class="btn-glow inline-block text-white px-10 py-5 rounded-2xl font-black text-center text-lg shadow-xl">
-            Quero Minha Experiência Venha Sorrir
-          </a>
-          <a href="#equipe" class="inline-flex items-center gap-2 border-2 border-slate-300 text-slate-600 px-8 py-5 rounded-2xl font-semibold text-center hover:border-blue-600 hover:text-blue-600 transition">
-            Conhecer a Equipe
+            Quero Minha Experiência
           </a>
         </div>
       </div>
@@ -88,32 +85,92 @@
         <div class="p-8 rounded-3xl bg-blue-50/50 border border-blue-100 flex flex-col items-center text-center">
           <i data-lucide="star" class="text-yellow-500 mb-6 w-10 h-10"></i>
           <h3 class="text-xl font-bold mb-4">5 Estrelas no Google</h3>
-          <p class="text-slate-600 leading-relaxed">Nossos pacientes nos avaliam como os melhores em Vitória da Conquista. Excelência comprovada.</p>
+          <p class="text-slate-600 leading-relaxed">Nossos pacientes nos avaliam como os melhores da região. Excelência comprovada por quem já sentou na nossa cadeira.</p>
         </div>
         <div class="p-8 rounded-3xl bg-blue-50/50 border border-blue-100 flex flex-col items-center text-center">
           <i data-lucide="heart" class="text-red-500 mb-6 w-10 h-10"></i>
           <h3 class="text-xl font-bold mb-4">Cuidado & Amor</h3>
-          <p class="text-slate-600 leading-relaxed">Nossa abordagem é acolhedora, garantindo conforto e tranquilidade em cada procedimento.</p>
+          <p class="text-slate-600 leading-relaxed">Esqueça o medo de dentista. Nossa abordagem é humanizada, acolhedora e focada no seu total conforto.</p>
         </div>
         <div class="p-8 rounded-3xl bg-blue-50/50 border border-blue-100 flex flex-col items-center text-center">
-          <i data-lucide="award" class="text-blue-600 mb-6 w-10 h-10"></i>
-          <h3 class="text-xl font-bold mb-4">Excelência Técnica</h3>
-          <p class="text-slate-600 leading-relaxed">Especialistas renomados e tecnologia de ponta para resultados de alta qualidade e durabilidade.</p>
+          <i data-lucide="shield-check" class="text-blue-600 mb-6 w-10 h-10"></i>
+          <h3 class="text-xl font-bold mb-4">Alta Tecnologia</h3>
+          <p class="text-slate-600 leading-relaxed">Especialistas renomados utilizando equipamentos de ponta para garantir resultados rápidos, estéticos e duradouros.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-24 bg-white" id="equipe">
+  <section class="py-24 bg-slate-50" id="tratamentos">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">Nossas Especialidades</h2>
+        <p class="text-slate-500 text-lg">Soluções completas para a saúde e estética do seu sorriso.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-500 transition">
+          <i data-lucide="sparkles" class="text-blue-600 mb-4 w-8 h-8"></i>
+          <h3 class="text-lg font-bold mb-2">Estética Dental</h3>
+          <p class="text-slate-500 text-sm">Lentes de contato em resina ou porcelana para um sorriso de capa de revista.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-500 transition">
+          <i data-lucide="settings" class="text-blue-600 mb-4 w-8 h-8"></i>
+          <h3 class="text-lg font-bold mb-2">Implantes</h3>
+          <p class="text-slate-500 text-sm">Recupere sua função mastigatória e autoestima com segurança e precisão.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-500 transition">
+          <i data-lucide="activity" class="text-blue-600 mb-4 w-8 h-8"></i>
+          <h3 class="text-lg font-bold mb-2">Ortodontia</h3>
+          <p class="text-slate-500 text-sm">Alinhadores invisíveis e aparelhos modernos para corrigir a posição dos dentes.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:border-blue-500 transition">
+          <i data-lucide="smile-plus" class="text-blue-600 mb-4 w-8 h-8"></i>
+          <h3 class="text-lg font-bold mb-2">Clareamento</h3>
+          <p class="text-slate-500 text-sm">Técnicas avançadas para dentes mais brancos e iluminados sem sensibilidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-blue-600 text-white" id="depoimentos">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl lg:text-5xl font-extrabold mb-12">O que dizem sobre nós no Google</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-blue-700 p-8 rounded-3xl text-left">
+          <div class="flex text-yellow-400 mb-4">
+            <i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i>
+          </div>
+          <p class="italic mb-4 text-blue-100">"A melhor clínica de Conquista! Atendimento impecável desde a recepção até a cadeira do dentista. Zero dor e muita atenção."</p>
+          <span class="font-bold">- Paciente Satisfeito</span>
+        </div>
+        <div class="bg-blue-700 p-8 rounded-3xl text-left">
+          <div class="flex text-yellow-400 mb-4">
+            <i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i>
+          </div>
+          <p class="italic mb-4 text-blue-100">"Eu tinha pavor de dentista e a Dra. me passou uma tranquilidade absurda. Fiz meu clareamento e amei o resultado."</p>
+          <span class="font-bold">- Paciente Satisfeito</span>
+        </div>
+        <div class="bg-blue-700 p-8 rounded-3xl text-left">
+          <div class="flex text-yellow-400 mb-4">
+            <i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i><i data-lucide="star" class="fill-current w-5 h-5"></i>
+          </div>
+          <p class="italic mb-4 text-blue-100">"Estrutura de primeiro mundo, muito limpo e organizado. Indico de olhos fechados para toda a família."</p>
+          <span class="font-bold">- Paciente Satisfeito</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-white" id="sobre">
     <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
-      <div class="relative order-2 lg:order-1">
-        <div class="absolute -inset-4 bg-blue-100 rounded-[3rem] -z-10"></div>
-        <img src="/img/sobre_venhasorrir.webp" alt="Clínica Venha Sorrir" class="rounded-[3rem] w-full aspect-[3/4] object-cover shadow-2xl bg-blue-50">
+      <div class="relative order-2 lg:order-1 flex justify-center bg-blue-50 p-12 rounded-[3rem]">
+        <img src="/img/LOGO.jpg" alt="Logo Clínica Venha Sorrir" class="rounded-2xl w-3/4 shadow-xl border-4 border-white">
       </div>
       <div class="order-1 lg:order-2">
         <h2 class="text-3xl lg:text-5xl font-extrabold mb-8 text-slate-900">Seu Sorriso em Boas Mãos</h2>
-        <p class="text-slate-600 text-lg leading-relaxed mb-6">A Clínica Venha Sorrir é formada por uma equipe de dentistas apaixonados por transformar vidas através de sorrisos. Combinamos excelência técnica, tecnologia moderna e um atendimento humanizado.</p>
-        <p class="text-slate-600 text-lg leading-relaxed font-semibold italic border-l-4 border-blue-600 pl-4">"Nossa missão é acolher e entregar o melhor sorriso, com cuidado e amor, garantindo uma experiência única e prazerosa."</p>
+        <p class="text-slate-600 text-lg leading-relaxed mb-6">A Clínica Venha Sorrir nasceu com o propósito de mudar a forma como as pessoas enxergam a odontologia. Combinamos técnica de elite, tecnologia de ponta e um atendimento extremamente humano.</p>
+        <p class="text-slate-600 text-lg leading-relaxed font-semibold italic border-l-4 border-blue-600 pl-4">"Nossa missão é entregar o melhor sorriso, com cuidado e amor, garantindo uma experiência única, sem medos e traumas."</p>
         <div class="mt-10 space-y-4 text-blue-700">
           <div class="flex items-center gap-4">
             <i data-lucide="map-pin"></i>
@@ -121,27 +178,9 @@
           </div>
           <div class="flex items-center gap-4">
             <i data-lucide="clock"></i>
-            <span class="font-bold">Segunda a Sexta, das 08h às 18h | Sábado, das 08h às 12h</span>
+            <span class="font-bold">Segunda a Sexta, das 08h às 18h | Sábados, das 08h às 12h</span>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="py-24 bg-blue-900 text-white text-center" id="contato">
-    <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-4xl lg:text-6xl font-extrabold mb-8">Redescubra sua alegria de sorrir.</h2>
-      <a href="https://wa.me/557791039993" target="_blank" class="bg-white text-blue-900 px-12 py-6 rounded-2xl font-black text-xl hover:bg-slate-100 transition shadow-2xl">
-        Falar com a Equipe no WhatsApp
-      </a>
-    </div>
-  </section>
-
-  <footer class="py-10 bg-white border-t border-blue-200 text-center text-slate-400 text-sm">
-    <p>© 2026 Clínica Venha Sorrir — Todos os direitos reservados.</p>
-    <p>Mons. Olimpio, 157, Conquista-BA</p>
-  </footer>
-
-  <script>lucide.createIcons();</script>
-</body>
-</html>
